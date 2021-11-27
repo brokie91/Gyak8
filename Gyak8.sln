@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak8", "Gyak8\Gyak8.csproj", "{0CE39287-77AC-449C-90BB-0DA4CA038433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak8_2b", "Gyak8_2b\Gyak8_2b.csproj", "{F07B7B7C-1767-497C-B000-F8003B5345A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak8_2c", "Gyak8_2c\Gyak8_2c.csproj", "{F6D8CD1F-BBC4-4F32-A8B4-589915B84139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE39287-77AC-449C-90BB-0DA4CA038433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE39287-77AC-449C-90BB-0DA4CA038433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE39287-77AC-449C-90BB-0DA4CA038433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE39287-77AC-449C-90BB-0DA4CA038433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07B7B7C-1767-497C-B000-F8003B5345A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07B7B7C-1767-497C-B000-F8003B5345A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07B7B7C-1767-497C-B000-F8003B5345A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07B7B7C-1767-497C-B000-F8003B5345A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D8CD1F-BBC4-4F32-A8B4-589915B84139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D8CD1F-BBC4-4F32-A8B4-589915B84139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D8CD1F-BBC4-4F32-A8B4-589915B84139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D8CD1F-BBC4-4F32-A8B4-589915B84139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF711FC1-3314-4BAB-AF86-AC39CD97C2EF}
+	EndGlobalSection
+EndGlobal
