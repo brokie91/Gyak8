@@ -18,6 +18,7 @@ namespace Gyak8_2c
         private DiakStorage diakStorage = new DiakStorage();
         private List<int> pontHatarStorage = new List<int>();
         private List<PontHatarControl> pontHatarControls = new List<PontHatarControl>();
+        private List<SzulEvControl> szulEvControls = new List<SzulEvControl>();
 
         int[,] pontHatarok = new int[6, 2];
         public mainForm()
@@ -75,6 +76,25 @@ namespace Gyak8_2c
             for (int i = 0; i < diakStorage.Count; i++)
             {
                 listBoxDiakok.Items.Add(diakNevsorrend[i].RovidToString());
+            }
+
+            //Évszámos gombok létrehozása
+            //1. Születési évek meghatározása
+            List<int> evSzamok = new List<int>();
+            for(int i = 0; i < diakStorage.Count; i++)
+            {
+                if (!evSzamok.Contains(diakStorage[i].SzuletesiEv))
+                {
+                    evSzamok.Add(diakStorage[i].SzuletesiEv);
+                }
+            }
+
+            //Gombok létrehozása a panelSzulEv-be
+            int sorszam = 1;
+            for(int i = 0; i < evSzamok.Count; i++)
+            {
+                szulEvControls.Add(new SzulEvControl(panelSzulEv,10,sorszam,evSzamok[i],listBoxEredmeny,diakStorage));
+                sorszam++;
             }
             
         }
